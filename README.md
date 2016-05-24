@@ -11,6 +11,6 @@ This [docker-alpine](https://github.com/gliderlabs/docker-alpine) based image wr
       -e AWS_DEFAULT_REGION="eu-west-1" \
       -e AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID}" \
       -e AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY}" \
-      quay.io/hellofresh/awscli ec2 describe-instances --max-items 1
+      quay.io/hellofresh/awscli cloudwatch put-metric-data --metric-name ExampleCustomMetricsCounter --namespace "ExampleCustomMetrics" --value 1.57 --timestamp $(date --utc -Ins)
 
 

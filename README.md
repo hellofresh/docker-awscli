@@ -1,7 +1,6 @@
+[![Docker Repository on Quay](https://quay.io/repository/hellofresh/awscli/status "Docker Repository on Quay")](https://quay.io/repository/hellofresh/awscli)
 Dockerized aws-cli
 ======
-
-[![Docker Repository on Quay](https://quay.io/repository/hellofresh/awscli/status "Docker Repository on Quay")](https://quay.io/repository/hellofresh/awscli)
 
 This [docker-alpine](https://github.com/gliderlabs/docker-alpine) based image wraps the [AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) application.
 
